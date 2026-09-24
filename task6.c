@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int temp, pressure;
-    printf("Enter temperature: ");
+    printf("Enter temperature:\n");
     scanf("%d", &temp);
-    printf("Enter pressure: ");
+    printf("Enter pressure:\n");
     scanf("%d", &pressure);
     if (temp>100 || pressure>250){
         printf("Machine has shut down\n");
