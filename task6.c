@@ -6,7 +6,6 @@ int main() {
     scanf("%d", &temp);
     printf("Enter pressure in PSI: ");
     scanf("%d", &pressure);
-
     if (temp>100 || pressure>250){
         printf("Machine has shut down\n");
     }
