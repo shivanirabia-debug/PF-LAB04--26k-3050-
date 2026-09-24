@@ -21,12 +21,12 @@ int main() {
     }
     if(speed>limit){
         fine=1000;
-        if (speed - limit > 20){
+        if (speed-limit>20){
             fine=fine*2;
         }
         printf("Final fine is %d", fine);
     }
-    else {
+    else{
         printf("No fine.");
     }
 }
