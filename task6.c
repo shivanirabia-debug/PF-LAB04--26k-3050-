@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int temp, pressure;
     printf("Enter temperature in Celsius: ");
